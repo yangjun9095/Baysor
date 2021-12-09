@@ -5,7 +5,7 @@ JULIA_DEPOT_CONFIG=$(JULIA_DIR)/etc/julia/startup.jl
 JULIA_EXEC_FLAG=$(JULIA_DIR)/bin/julia_success
 JULIA_EXEC=$(JULIA_DIR)/bin/julia
 JULIA_DEPS_FLAG = $(JULIA_DEPOT_DIR)/deps_success
-JULIA_SYS_IMAGE=$(JULIA_DIR)/lib/julia/sys.so
+JULIA_SYS_IMAGE=$/home/yangjoon.kim/Baysor/bin/julia-1.6.0/lib/julia/sys.so
 SEGMENTATION_EXECUTABLE=./baysor
 
 all: $(SEGMENTATION_EXECUTABLE)
