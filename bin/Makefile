@@ -1,11 +1,11 @@
 JULIA_ARCHIVE=julia-1.6.0-linux-x86_64.tar.gz
-JULIA_DIR=$(shell pwd)/julia-1.6.0/
-JULIA_DEPOT_DIR=$(shell pwd)/.julia/
+JULIA_DIR=$(shell pwd)/julia-1.6.0
+JULIA_DEPOT_DIR=$(shell pwd)/.julia
 JULIA_DEPOT_CONFIG=$(JULIA_DIR)/etc/julia/startup.jl
 JULIA_EXEC_FLAG=$(JULIA_DIR)/bin/julia_success
-JULIA_EXEC=$(JULIA_DIR)bin/julia
+JULIA_EXEC=$(JULIA_DIR)/bin/julia
 JULIA_DEPS_FLAG = $(JULIA_DEPOT_DIR)/deps_success
-JULIA_SYS_IMAGE=$(JULIA_DIR)lib/julia/sys.so
+JULIA_SYS_IMAGE=$(JULIA_DIR)/lib/julia/sys.so
 SEGMENTATION_EXECUTABLE=./baysor
 
 all: $(SEGMENTATION_EXECUTABLE)
